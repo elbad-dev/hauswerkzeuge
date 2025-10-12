@@ -1,0 +1,1229 @@
+<html style="overflow: auto;"><head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türgriff Set Schwarz Matt – Klinke Aluminium auf geteilten Rosetten</title>
+    
+      
+    <!-- Structured Data for SEO -->
+    
+
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        
+
+        /* Theme variables with improved contrast */
+        :root {
+            --primary: #00a651;
+            --background: rgba(255, 255, 255, 0.95);
+            --text: #1a1a1a;
+            --muted: #666666;
+            --border: #e5e5e5;
+            --card-bg: rgba(255, 255, 255, 0.95);
+            --radius: 16px;
+            --image-bg: rgba(255, 255, 255, 0.95);
+            --frame-border: #e5e5e5;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --hover-bg: rgba(0, 0, 0, 0.05);
+            --button-hover: rgba(0, 0, 0, 0.1);
+            --main-bg: rgba(255, 255, 255, 0.95);
+            --focus-outline: white;
+        }
+
+        /* Theme toggle styles */
+        .theme-toggle {
+            position: relative;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            cursor: pointer;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem;
+            box-shadow: 0 2px 8px var(--shadow-color);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            touch-action: manipulation;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.05);
+        }
+
+        .theme-toggle:focus-visible {
+            outline: 2px solid var(--focus-outline);
+            outline-offset: 2px;
+        }
+
+        #theme-toggle {
+            display: none;
+        }
+
+        .theme-toggle svg {
+            width: 24px;
+            height: 24px;
+            fill: none;
+            stroke: var(--text);
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .sun-icon, .moon-icon {
+            position: absolute;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .sun-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        .moon-icon {
+            opacity: 0;
+            transform: rotate(180deg);
+        }
+
+        /* Dark theme with improved contrast */
+        #theme-toggle:checked ~ .container {
+            --primary: #00cc63;
+            --background: rgba(255, 255, 255);
+            --text: #ffffff;
+            --muted: #c0c0c0;
+            --border: #404040;
+            --card-bg: rgba(3, 36, 36, 0.95);
+            --image-bg: rgba(4, 42, 42, 0.95);
+            --frame-border: #505050;
+            --shadow-color: rgba(0, 0, 0, 0.4);
+            --hover-bg: rgba(255, 255, 255, 0.1);
+            --button-hover: rgba(255, 255, 255, 0.1);
+            --main-bg: rgba(3, 26, 26, 0.95);
+            --focus-outline: white;
+        }
+
+        #theme-toggle:checked ~ .container .sun-icon {
+            opacity: 0;
+            transform: rotate(-180deg);
+        }
+
+        #theme-toggle:checked ~ .container .moon-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        /* Override inline black text colors for dark theme */
+        #theme-toggle:checked ~ .container p[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container div[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container span[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container h1[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container h2[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container h3[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container h4[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container h5[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container h6[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container li[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container b[style*="color: rgb(26, 26, 26)"],
+        #theme-toggle:checked ~ .container strong[style*="color: rgb(26, 26, 26)"] {
+            color: #ffffff !important;
+            background: transparent !important;
+        }
+
+        /* Override specific product description text for dark theme */
+        #theme-toggle:checked ~ .container #product-description p,
+        #theme-toggle:checked ~ .container #product-description div,
+        #theme-toggle:checked ~ .container #product-description span,
+        #theme-toggle:checked ~ .container #product-description b,
+        #theme-toggle:checked ~ .container #product-description strong {
+            color: #ffffff !important;
+            background: transparent !important;
+        }
+
+        /* Remove all inline color styles from product description */
+        #product-description p,
+        #product-description div,
+        #product-description span,
+        #product-description b,
+        #product-description strong {
+            color: var(--text) !important;
+            background: transparent !important;
+        }
+
+        /* Override company badge headings for dark theme */
+        #theme-toggle:checked ~ .container h3[style*="font-weight: 600; margin: 0.5rem 0;"] {
+            color: #ffffff !important;
+        }
+
+        /* Override specific heading IDs and styles for dark theme */
+        #theme-toggle:checked ~ .container #product-title {
+            color: #ffffff !important;
+        }
+
+        #theme-toggle:checked ~ .container h2[style*="font-size: 1.5rem; margin-bottom: 1rem;"] {
+            color: #ffffff !important;
+        }
+
+        #theme-toggle:checked ~ .container h2[style*="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;"] {
+            color: #ffffff !important;
+        }
+
+        /* Force override of inline styles in product description */
+        #product-description p[style*="color"],
+        #product-description div[style*="color"],
+        #product-description span[style*="color"],
+        #product-description b[style*="color"],
+        #product-description strong[style*="color"] {
+            color: var(--text) !important;
+            background: transparent !important;
+        }
+
+        /* Base layout */
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 1rem;
+            background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+            min-height: 100vh;
+        }
+
+        body {
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background);
+            color: var(--text);
+            border-radius: var(--radius);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--main-bg);
+            border-radius: var(--radius);
+            box-shadow: 0 0 30px var(--shadow-color);
+            position: relative;
+        }
+
+        /* Header improvements */
+        .header {
+            padding: 1.5rem 0;
+            margin-top: 0;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .brand-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .brand-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .brand-text h1 {
+            font-size: 1.875rem;
+            font-weight: bold;
+            color: var(--primary);
+            letter-spacing: 0.05em;
+            margin: 0;
+        }
+
+        .brand-text p {
+            font-size: 0.875rem;
+            color: var(--primary);
+            margin: 0;
+        }
+
+        .brand-subtitle p {
+            color: var(--text);
+            font-size: 0.875rem;
+            margin: 0;
+        }
+
+        /* Improved gallery with loading states */
+        .gallery {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: transparent;
+            padding: 0;
+        }
+
+        .gallery-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 75%;
+            overflow: hidden;
+            border-radius: var(--radius);
+            background: var(--image-bg);
+            margin-bottom: 1rem;
+            background-image: url('viewBox="0 0 100 100"><rect width="100" height="100" fill="%23f0f0f0"/><circle cx="50" cy="50" r="20" fill="none" stroke="%23999" stroke-width="2"><animate attributeName="stroke-dasharray" values="0 126;63 63;0 126" dur="2s" repeatCount="indefinite"/></circle></svg>');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50px 50px;
+        }
+
+        .gallery-item {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+            object-fit: contain;
+            object-position: center;
+            z-index: 1;
+            background: var(--image-bg);
+        }
+
+        .gallery-item:loaded {
+            background-image: none;
+        }
+
+        .gallery input[type="radio"] {
+            display: none;
+        }
+
+        #img1:checked ~ .gallery-container #main1,
+        #img2:checked ~ .gallery-container #main2,
+        #img3:checked ~ .gallery-container #main3,
+        #img4:checked ~ .gallery-container #main4,
+        #img5:checked ~ .gallery-container #main5,
+        #img6:checked ~ .gallery-container #main6 {
+            opacity: 1;
+            z-index: 2;
+        }
+
+        /* Improved gallery arrows */
+        .gallery-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 48px;
+            height: 48px;
+            background: var(--card-bg);
+            border: 2px solid var(--frame-border);
+            border-radius: 50%;
+            z-index: 10;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+            display: none;
+            touch-action: manipulation;
+        }
+
+        .gallery-arrow:hover {
+            opacity: 1;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .gallery-arrow:focus-visible {
+            outline: 2px solid var(--focus-outline);
+            outline-offset: 2px;
+        }
+
+        .gallery-arrow::before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-style: solid;
+            border-width: 2px 2px 0 0;
+            border-color: var(--text);
+            top: 50%;
+            left: 50%;
+        }
+
+        .gallery-arrow.prev {
+            left: 10px;
+        }
+
+        .gallery-arrow.next {
+            right: 10px;
+        }
+
+        .gallery-arrow.prev::before {
+            transform: translate(-30%, -50%) rotate(-135deg);
+        }
+
+        .gallery-arrow.next::before {
+            transform: translate(-70%, -50%) rotate(45deg);
+        }
+
+        /* Arrow visibility logic */
+        #img1:checked ~ .gallery-container .next[for="img2"],
+        #img2:checked ~ .gallery-container .next[for="img3"],
+        #img3:checked ~ .gallery-container .next[for="img4"],
+        #img4:checked ~ .gallery-container .next[for="img5"],
+        #img5:checked ~ .gallery-container .next[for="img6"] {
+            display: block;
+        }
+
+        #img2:checked ~ .gallery-container .prev[for="img1"],
+        #img3:checked ~ .gallery-container .prev[for="img2"],
+        #img4:checked ~ .gallery-container .prev[for="img3"],
+        #img5:checked ~ .gallery-container .prev[for="img4"],
+        #img6:checked ~ .gallery-container .prev[for="img5"] {
+            display: block;
+        }
+
+        /* Improved thumbnails */
+        .thumbnail-sets {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 0;
+        }
+
+        .thumbnail-set {
+            display: none;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        #img1:checked ~ .thumbnail-sets .set1,
+        #img2:checked ~ .thumbnail-sets .set1,
+        #img3:checked ~ .thumbnail-sets .set1,
+        #img4:checked ~ .thumbnail-sets .set1,
+        #img5:checked ~ .thumbnail-sets .set1,
+        #img6:checked ~ .thumbnail-sets .set1 {
+            display: flex;
+        }
+
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            border: 2px solid var(--frame-border);
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background: var(--image-bg);
+            touch-action: manipulation;
+            min-width: 44px;
+            min-height: 44px;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1);
+            border-color: var(--primary);
+        }
+
+        .thumbnail:focus-visible {
+            outline: 2px solid var(--focus-outline);
+            outline-offset: 2px;
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* Active thumbnail states */
+        #img1:checked ~ .thumbnail-sets .thumbnail[for="img1"],
+        #img2:checked ~ .thumbnail-sets .thumbnail[for="img2"],
+        #img3:checked ~ .thumbnail-sets .thumbnail[for="img3"],
+        #img4:checked ~ .thumbnail-sets .thumbnail[for="img4"],
+        #img5:checked ~ .thumbnail-sets .thumbnail[for="img5"],
+        #img6:checked ~ .thumbnail-sets .thumbnail[for="img6"] {
+            border-color: var(--primary);
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 166, 81, 0.3);
+        }
+
+        /* Set switcher */
+        .set-switcher {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .set-switcher label {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--frame-border);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            opacity: 0.7;
+            touch-action: manipulation;
+        }
+
+        .set-switcher label:hover {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        #img1:checked ~ .set-switcher label[for="set1"],
+        #img2:checked ~ .set-switcher label[for="set1"],
+        #img3:checked ~ .set-switcher label[for="set1"],
+        #img4:checked ~ .set-switcher label[for="set1"],
+        #img5:checked ~ .set-switcher label[for="set1"],
+        #img6:checked ~ .set-switcher label[for="set1"] {
+            background: var(--primary);
+            opacity: 1;
+        }
+
+        /* Product section */
+        .product-section {
+            display: grid;
+            gap: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            margin-top: 1rem;
+        }
+
+        /* Cards with improved styling */
+        .card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px var(--shadow-color);
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px var(--shadow-color);
+        }
+
+        /* Tags */
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: calc(var(--radius) / 2);
+            background: rgba(0, 166, 81, 0.1);
+            color: var(--primary);
+            border: 1px solid rgba(0, 166, 81, 0.2);
+            font-weight: 500;
+        }
+
+        /* Dark theme tag styles */
+        #theme-toggle:checked ~ .container .tag {
+            background: rgba(0, 204, 99, 0.15);
+            color: #ffffff;
+            border: 1px solid rgba(0, 204, 99, 0.3);
+        }
+
+        /* Pricing */
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 0;
+        }
+
+        .price-note {
+            font-size: 0.875rem;
+            color: var(--muted);
+            margin: 0;
+        }
+
+        /* Improved buttons */
+        .button {
+            display: inline-block;
+            width: 100%;
+            padding: 0.875rem 1.5rem;
+            border-radius: calc(var(--radius) / 2);
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 0.75rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            touch-action: manipulation;
+            min-height: 44px;
+        }
+
+        .button:focus-visible {
+            outline: 2px solid var(--focus-outline);
+            outline-offset: 2px;
+        }
+
+        .button-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .button-primary:hover {
+            background: #008a44;
+            transform: translateY(-1px);
+        }
+
+        .button-secondary {
+            background: var(--card-bg);
+            color: var(--primary);
+            border: 1px solid var(--border);
+        }
+
+        .button-secondary:hover {
+            background: var(--hover-bg);
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+        }
+
+        .button-cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: var(--card-bg);
+            color: var(--primary);
+            border: 1px solid var(--border);
+        }
+
+        .button-cart::before {
+            content: '🛒';
+            font-size: 1.2em;
+        }
+
+        .button-cart:hover {
+            background: var(--hover-bg);
+            border-color: var(--primary);
+        }
+
+        /* Technical data */
+        .tech-data {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            display: grid;
+            gap: 2rem;
+        }
+
+        .tech-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .tech-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .tech-label {
+            color: var(--muted);
+            font-weight: 500;
+        }
+
+        .tech-value {
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .tech-image-container {
+            background: var(--image-bg);
+            border: 1px solid var(--frame-border);
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tech-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: calc(var(--radius) / 2);
+            max-width: 300px;
+        }
+
+        /* Company info */
+        .company-info {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .info-cards {
+            display: grid;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .info-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 1rem;
+            color: var(--primary);
+        }
+
+        .info-icon svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .copyright {
+            font-size: 0.875rem;
+            color: var(--muted);
+            margin-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        /* Responsive design improvements */
+        @media (min-width: 640px) {
+            .header-content {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .brand-section {
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .product-section {
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+            }
+
+            .tech-data {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .info-cards {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .button-container {
+                flex-direction: row;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .thumbnail {
+                width: 60px;
+                height: 60px;
+            }
+
+            .brand-text h1 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            html {
+                padding: 0.5rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .thumbnail {
+                width: 50px;
+                height: 50px;
+            }
+
+            .gallery-container {
+                padding-bottom: 80%;
+            }
+
+            .gallery-arrow {
+                width: 40px;
+                height: 40px;
+            }
+
+            .price {
+                font-size: 1.75rem;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .container {
+                padding: 0.5rem;
+            }
+
+            .header {
+                padding: 1rem 0;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .theme-toggle,
+            .gallery-arrow {
+                display: none !important;
+            }
+
+            .container {
+                box-shadow: none;
+                border: 1px solid #ccc;
+            }
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            :root {
+                --border: #000;
+                --text: #000;
+                --muted: #444;
+            }
+
+            .button {
+                border: 2px solid currentColor;
+            }
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* iOS safe area support */
+        @supports (padding: max(0px)) {
+            .container {
+                padding-left: max(2rem, env(safe-area-inset-left));
+                padding-right: max(2rem, env(safe-area-inset-right));
+            }
+        }
+    </style>
+<meta name="description" content="Verleihen Sie Ihren Zimmertüren mit der Türklinke im Farbton Schwarz Matt ein stilvolles Update. Das Modell QUADRO-QR besticht durch klare Linien, ein modern..."><meta name="keywords" content="Türgriff, Set, Schwarz, Matt, Klinke, Aluminium, auf, geteilten, Rosetten, HAUS WERKZEUGE"><meta property="og:title" content="Türgriff Set Schwarz Matt – Klinke Aluminium auf geteilten Rosetten"><meta property="og:description" content="Verleihen Sie Ihren Zimmertüren mit der Türklinke im Farbton Schwarz Matt ein stilvolles Update. Das Modell QUADRO-QR besticht durch klare Linien, ein modernes Design und hohe Funktionalität und ist somit - ideal für Wohnräume, Büros oder Studios.
+Das Set aus robustem Aluminium ist auf Langlebigkeit ausgelegt: kratzfest, leicht zu reinigen und korrosionsbeständig. Dank des durchdachten Montagesystems lässt sich der Türgriff schnell und sicher an Türen mit einer Stärke von 35–55 mm befestigen.
+Die geteilte Rosette (Ø ca. 52 mm) sorgt für eine dezente Optik und verdeckte Schrauben. Sie erhalten ein komplettes Montageset inklusive Griffpaar (links/rechts), Befestigungsschrauben, Stift und Inbusschlüssel.
+Optional erhältlich: Schlüsselrosetten in 3 Varianten:BB (Buntbart) – für klassische Zimmertürschlösser,PZ – für Profilzylinderschlösser,WC – mit Riegel für Badezimmer und Toiletten.
+Produktmerkmale:Material: Aluminium / ZnAlFarbe: Schwarz Matt (eloxiert)Türstärke: 35 – 55 mmRosette: geteilte Ausführung
+Einfache Montage, modernes Design – QUADRO-QR Haus Werkzeuge ist die perfekte Wahl für stilbewusste Türgestaltung."><meta property="og:image" content="https://github.com/elbad-dev/hauswerkzeuge/blob/main/444s-l1600%20(2).jpg?raw=true"><meta property="og:type" content="product">
+
+
+    <style id="ebaytemplate-rounded-images-style">
+          :root { --gallery-image-radius: 12px; }
+          /* Rounded corners for all notable images */
+          .gallery-item, .gallery-item img, .gallery-container img, .product-gallery img, .image-gallery img, .thumbnail img, .tech-gallery img, .tech-image-preview, .brand-info img, .tech-gallery-single-image, .tech-gallery-multi .tech-gallery-item {
+            border-radius: var(--gallery-image-radius) !important;
+            overflow: hidden !important;
+          }
+          /* Baseline object-fit cover safeguard (overridden later for generated galleries) */
+          .gallery-item img, .product-gallery img, .image-gallery img, .tech-gallery img { object-fit: cover; }
+
+          /* Generated gallery full-visibility rules */
+          [data-generated-gallery="true"] .gallery-item {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            background: var(--image-bg, transparent) !important;
+            position: relative !important;
+          }
+          [data-generated-gallery="true"] .gallery-item img {
+            object-fit: contain !important;
+            width: auto !important;
+            height: auto !important;
+            max-width: 100% !important;
+            max-height: 100% !important;
+            display: block !important;
+            margin: 0 auto !important;
+          }
+          /* Thumbnails keep cover to fill their square */
+          .thumbnail img { object-fit: cover !important; }
+          /* Auto mode container sizing handled inline; no forced min image scaling here */
+          
+      </style><script type="application/ld+json"></script></head><body style="overflow: auto;"><input type="checkbox" id="theme-toggle" aria-label="Przełącz tryb ciemny">
+    
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="brand-section">
+                    <div class="brand-info">
+                        <img src="https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png" alt="Company Logo" style="height: 3rem; width: auto; object-fit: contain;" loading="eager">
+                        <div class="brand-text">
+                            <h1 id="product-title">HAUS WERKZEUGE</h1>
+                            <p>Profi Tools für Zuhause</p>
+                        </div>
+                    </div>
+                    <div class="brand-subtitle">
+                        <p>• Professionelle Werkzeuge &amp; Ausrüstung • Qualitätsgarantie</p>
+                    </div>
+                </div>
+                
+                <label for="theme-toggle" class="theme-toggle" aria-label="Przełącz między trybem jasnym a ciemnym" tabindex="0" role="button">
+                    <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 A7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </label>
+            </div>
+        </header>
+
+        <!-- Product Section -->
+        <div class="product-section">
+            <!-- Improved Gallery -->
+            <div class="gallery product-gallery gallery-auto-mode" data-generated-gallery="true" id="gallery">
+      <input type="radio" name="gallery" id="img1" checked="">
+      
+      <div class="gallery-container gallery-auto-mode" style="; aspect-ratio: 4/3; height: auto; min-height: 300px; padding-bottom: 0; width: 100%; max-width: 520px; min-width: 400px; margin: 0 auto; position: relative; border-radius: var(--gallery-image-radius,12px); -webkit-border-radius: var(--gallery-image-radius,12px); overflow: hidden;">
+        
+        <img src="https://github.com/elbad-dev/hauswerkzeuge/blob/main/444s-l1600%20(2).jpg?raw=true" alt="Product detail 1" class="gallery-item" loading="lazy" id="main1" style="; border-radius: var(--gallery-image-radius,12px); -webkit-border-radius: var(--gallery-image-radius,12px); overflow: hidden;">
+      </div>
+      <div class="thumbnail-sets">
+        <div class="thumbnail-set set1">
+      <label class="thumbnail" for="img1"><img src="https://github.com/elbad-dev/hauswerkzeuge/blob/main/444s-l1600%20(2).jpg?raw=true" alt="Thumbnail 1"></label>
+    </div>
+      </div>
+      <style>
+        /* Main Gallery Styles - Enhanced for Auto/Fixed Mode Compatibility */
+        .product-gallery { width: 100%; max-width: 100%; position: relative; display: flex; flex-direction: column; }
+        .product-gallery input[type="radio"] { display: none; }
+        
+        /* Gallery Container - Flexible for both auto and fixed modes */
+        .gallery-container { 
+          position: relative; 
+          width: 100%; 
+          background: var(--image-bg, #fff); 
+          border-radius: var(--radius, 4px); 
+          overflow: hidden; 
+        }
+        
+        /* Default responsive behavior using padding-bottom trick */
+        .gallery-container:not(.gallery-auto-mode):not(.gallery-fixed-mode) { 
+          padding-bottom: 75%; 
+        }
+        
+        /* Auto mode compatibility - uses aspect-ratio when applied by TemplateEditor */
+        .gallery-container.gallery-auto-mode {
+          aspect-ratio: 4/3;
+          height: auto;
+          min-height: 300px;
+          padding-bottom: 0;
+        }
+        
+        /* Fixed mode compatibility - uses padding-bottom when applied by TemplateEditor */
+        .gallery-container.gallery-fixed-mode {
+          aspect-ratio: unset;
+          padding-bottom: var(--gallery-padding-bottom, 75%);
+        }
+        
+        /* Gallery Items - Compatible with both sizing modes */
+        .gallery-item { 
+          position: absolute; 
+          top: 0; 
+          left: 0; 
+          width: 100%; 
+          height: 100%; 
+          opacity: 0; 
+          transition: opacity 0.3s; 
+          z-index: 1; 
+          object-fit: contain; 
+          object-position: center;
+        }
+        
+        /* Auto mode gallery items - ensure proper filling with higher specificity */
+        .product-gallery .gallery-auto-mode .gallery-item,
+        .gallery.gallery-auto-mode .gallery-item {
+          position: absolute !important;
+          top: 0 !important;
+          left: 0 !important;
+          width: 100% !important;
+          height: 100% !important;
+          object-fit: contain !important;
+          object-position: center !important;
+          transform: none !important;
+          max-width: none !important;
+          max-height: none !important;
+        }
+        
+        /* Fixed mode gallery items - ensure proper scaling */
+        .gallery-fixed-mode .gallery-item {
+          max-width: 95%;
+          max-height: 95%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: auto;
+          height: auto;
+        }
+        
+        .gallery-arrow { display: none; position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; background: var(--card-bg, #fff); border: 1px solid var(--frame-border, #e5e7eb); border-radius: 50%; cursor: pointer; z-index: 10; opacity: 0; transition: all 0.3s ease; }
+        
+        /* Show arrows on container hover (same as tech gallery) */
+        .gallery-container:hover .gallery-arrow {
+          opacity: 0.8;
+        }
+        
+        .gallery-arrow:hover {
+          opacity: 1 !important;
+          transform: translateY(-50%) scale(1.1);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .gallery-arrow:before { content: ''; position: absolute; top: 50%; left: 50%; width: 10px; height: 10px; border-style: solid; border-width: 2px 2px 0 0; border-color: var(--text, #000); }
+        .gallery-arrow.prev { left: 10px; }
+        .gallery-arrow.prev:before { transform: translate(-30%, -50%) rotate(-135deg); }
+        .gallery-arrow.next { right: 10px; }
+        .gallery-arrow.next:before { transform: translate(-70%, -50%) rotate(45deg); }
+        
+        
+        /* Main image visibility selectors */
+        #img1:checked ~ .gallery-container #main1 { opacity: 1; z-index: 2; }
+        
+        .thumbnail-sets { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
+        .thumbnail-set { display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+        .thumbnail { 
+          width: 80px; 
+          height: 80px; 
+          border: 2px solid var(--frame-border, #e5e7eb); 
+          border-radius: var(--radius, 4px); 
+          overflow: hidden; 
+          cursor: pointer; 
+          flex-shrink: 0; 
+          background: #f9f9f9;
+          transition: transform 0.2s ease-out;
+        }
+        .thumbnail img { 
+          width: 100%; 
+          height: 100%; 
+          object-fit: cover;
+          transition: transform 0.2s ease-out;
+        }        #img1:checked ~ .thumbnail-sets .thumbnail[for="img1"] {
+            transform: scale(1.05);
+            border-width: 0 !important; 
+            border: none !important;
+          }
+          #img1:checked ~ .thumbnail-sets .thumbnail[for="img1"] img {
+            transform: scale(1.05);
+          }
+      </style>
+    </div>
+
+            <!-- Product Info -->
+            <div class="product-info">
+                <div class="card">
+                    <h2 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem;" id="product-title">Türgriff Set Schwarz Matt – Klinke Aluminium auf geteilten Rosetten</h2>
+                    
+                    <div class="tags"><span class="tag">Drückergarnitur Set</span><span class="tag">Qualitätsgarantie</span><span class="tag">Konstenloser Versand aus Deutschland</span></div>
+                    
+                    <div style="height: 1px; background: var(--border); margin: 1.5rem 0;"></div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <span class="price" aria-label="Cena produktu">€20,00</span>
+                        <span class="price-note">inkl. MwSt.</span>
+                    </div>
+                    
+                    <div class="button-container">
+                        <button class="button button-cart" aria-label="Dodaj Euro-Locks Nockenschloss 8mm do koszyka">In den Warenkorb</button>
+                        <a href="#" class="button button-primary" aria-label="Kup teraz Euro-Locks Nockenschloss 8mm">Jetzt Kaufen</a>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top: 1rem;" id="product-description">
+                    <h2 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">Produktbeschreibung</h2>
+                    <div><div><p>Verleihen Sie Ihren Zimmertüren mit der Türklinke im Farbton <b>Schwarz Matt</b> ein stilvolles Update. Das Modell QUADRO-QR besticht durch klare Linien, ein <b>modernes Design</b> und <b>hohe Funktionalität</b> und ist somit - ideal für Wohnräume, Büros oder Studios.</p></div><hr data-end="1450" data-start="1447" style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border-width: 1px 0px 0px; border-style: solid; border-color: rgb(226, 232, 240); transition: background-color 0.4s, color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.3s; height: 0px; margin: 0px; font-family: Inter, system-ui, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; padding: 0px;"><br><div>
+<p data-start="1944" data-end="2201">Das <strong data-start="1948" data-end="1978">Set aus robustem Aluminium</strong> ist auf Langlebigkeit ausgelegt: kratzfest, leicht zu reinigen und korrosionsbeständig. Dank des durchdachten Montagesystems lässt sich der Türgriff <strong data-start="2128" data-end="2200">schnell und sicher an Türen mit einer Stärke von 35–55 mm befestigen</strong>.</p>
+<p data-start="2203" data-end="2415">Die geteilte Rosette (Ø ca. 52 mm) sorgt für eine dezente Optik und verdeckte Schrauben. Sie erhalten ein komplettes Montageset inklusive Griffpaar (links/rechts), Befestigungsschrauben, Stift und Inbusschlüssel.</p><hr data-end="1450" data-start="1447" style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border-width: 1px 0px 0px; border-style: solid; border-color: rgb(226, 232, 240); transition: background-color 0.4s, color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.3s; height: 0px; margin: 0px; font-family: Inter, system-ui, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; padding: 0px;"><br></div><div>
+<p data-start="2417" data-end="2479"><strong data-start="2417" data-end="2429">Optional</strong> erhältlich: <strong data-start="2442" data-end="2478">Schlüsselrosetten in 3 Varianten</strong>:</p><ul data-start="2480" data-end="2616"><li data-start="2480" data-end="2532"><p data-start="2482" data-end="2532">BB (Buntbart) – für klassische Zimmertürschlösser,</p></li><li data-start="2533" data-end="2568"><p data-start="2535" data-end="2568">PZ – für Profilzylinderschlösser,</p></li><li data-start="2569" data-end="2616"><p data-start="2571" data-end="2616">WC – mit Riegel für Badezimmer und Toiletten.</p></li></ul><hr data-end="1450" data-start="1447" style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border-width: 1px 0px 0px; border-style: solid; border-color: rgb(226, 232, 240); transition: background-color 0.4s, color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.3s; height: 0px; margin: 0px; font-family: Inter, system-ui, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; padding: 0px;"><br></div><div>
+<p data-start="2618" data-end="2638"><strong data-start="2618" data-end="2638">Produktmerkmale:</strong></p><ul data-start="2639" data-end="2809"><li data-start="2658" data-end="2679"><p data-start="2660" data-end="2679">Material: Aluminium / <span style="font-family: inherit;">ZnAl</span></p></li><li data-start="2680" data-end="2721"><p data-start="2682" data-end="2721">Farbe: Schwarz Matt (<span style="font-family: inherit;">eloxiert</span><span style="font-family: inherit;">)</span></p></li><li data-start="2722" data-end="2743"><p data-start="2724" data-end="2743">Türstärke: 35 – 55 mm</p></li><li data-start="2744" data-end="2774"><p data-start="2746" data-end="2774">Rosette: geteilte Ausführung</p></li></ul><hr data-end="1450" data-start="1447" style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border-width: 1px 0px 0px; border-style: solid; border-color: rgb(226, 232, 240); transition: background-color 0.4s, color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.3s; height: 0px; margin: 0px; font-family: Inter, system-ui, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; padding: 0px;"><br></div><div>
+<p data-start="2811" data-end="2917">Einfache Montage, modernes Design – <strong data-start="2847" data-end="2863">QUADRO-QR Haus Werkzeuge</strong> ist die perfekte Wahl für stilbewusste Türgestaltung.<br></p><p></p><div style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(29, 57, 47); transition: background-color 0.4s, color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.3s; font-family: Inter, system-ui, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(2, 8, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"></div><div><p style="font-family: inherit;"></p><p></p></div></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Data -->
+        <div class="tech-data" id="tech-specs">
+            <div class="card">
+                <h2 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">Technische Daten</h2>
+                <div class="tech-list">
+          <div class="tech-item">
+            <span class="tech-label">Marke:</span>
+            <span class="tech-value">Haus Werkzeuge</span>
+          </div>
+        
+          <div class="tech-item">
+            <span class="tech-label">Modell:</span>
+            <span class="tech-value">QUADRO PZ/BB/WC</span>
+          </div>
+        
+          <div class="tech-item">
+            <span class="tech-label">Farbe:</span>
+            <span class="tech-value">Schwarz</span>
+          </div>
+        
+          <div class="tech-item">
+            <span class="tech-label">Zylindermaß:</span>
+            <span class="tech-value">‎12,3 x 5,5 x 5,5 cm</span>
+          </div>
+        
+          <div class="tech-item">
+            <span class="tech-label">Anwendung:</span>
+            <span class="tech-value">Innentüren / Zimmertüren</span>
+          </div>
+        
+          <div class="tech-item">
+            <span class="tech-label">Lieferumfang:</span>
+            <span class="tech-value">Montageset + Werkzeug / ROSETTE (OPTIONAL)</span>
+          </div>
+        </div>
+            </div>
+
+            <div class="card tech-image-container tech-size-auto" style="; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px);  min-   ; position: relative; background: var(--image-bg, #f8f9fa); overflow: hidden; border-radius: var(--radius, 8px); height: auto; min-height: 300px; display: flex; align-items: center; justify-content: center;">
+      <div class="tech-gallery-single tech-size-auto">
+        <img src="https://github.com/elbad-dev/hauswerkzeuge/blob/main/qubik%20size.jpg?raw=true" alt="Technical detail" class="tech-gallery-item" loading="lazy">
+        <style>
+          /* Tech Gallery - Single Image Mode (Gallery Structure) */
+          .tech-gallery-single {
+            position: relative;
+            width: 100%;
+            height: auto; aspect-ratio: 4/3; min-height: 300px;
+            background: #fff;
+            border: none;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 600px;
+          }
+          
+          .tech-gallery-single .tech-gallery-item {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            opacity: 1;
+            transition: opacity 0.3s ease;
+            object-fit: contain;
+            object-position: center center;
+            z-index: 2;
+            border-radius: 4px;
+          }
+          
+          /* Mobile responsiveness */
+          @media (max-width: 768px) {
+            .tech-gallery-single {
+              width: 100%;
+              max-width: 400px;
+              min-height: 250px;
+            }
+            
+            .tech-gallery-single .tech-gallery-item {
+              max-width: 100%;
+              max-height: 100%;
+              object-position: center center;
+            }
+          }
+          
+          /* Ensure proper sizing for all container sizes */
+          @media (min-width: 769px) {
+            .tech-gallery-single {
+              max-width: 100%;
+              min-height: 350px;
+            }
+          }
+        </style>
+      </div>
+    </div>
+        </div>
+
+        <!-- Company Info -->
+        <div class="company-info" id="company-info">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Über Uns</h2>
+            <p style="color: var(--muted); max-width: 600px; margin: 0 auto 2rem;">
+                Seit 2017 sind wir Ihr zuverlässiger Partner für hochwertige Werkzeuge.
+                Unser Ziel ist es, Ihnen professionelle Qualität zu einem fairen Preis anzubieten.
+            </p>
+
+            <div class="info-cards">
+          <div class="card">
+            <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+            <h3 style="font-weight: 600; margin: 0.5rem 0;">Seit 2017 am Markt</h3>
+            <p style="font-size: 0.875rem; color: var(--muted);">Gegründet im Jahr 2017 und seitdem verpflichtet, professionelle Werkzeuge zu liefern.</p>
+          </div>
+        
+          <div class="card">
+            <div class="info-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f2e813" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path></svg></div>
+            <h3 style="font-weight: 600; margin: 0.5rem 0;">Qualität und Zuverlässigkeit</h3>
+            <p style="font-size: 0.875rem; color: var(--muted);">Unsere Werkzeuge sind auf Langlebigkeit und Zuverlässigkeit ausgelegt, um Ihre Arbeit zu erleichtern.</p>
+          </div>
+        
+          <div class="card">
+            <div class="info-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1abc9c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+            <h3 style="font-weight: 600; margin: 0.5rem 0;">Kundensupport</h3>
+            <p style="font-size: 0.875rem; color: var(--muted);">Unser Support-Team steht Ihnen jederzeit zur Verfügung, um Ihre Fragen zu beantworten und Ihnen zu helfen: +49 176 35487294</p>
+          </div>
+        </div>
+
+            <div class="copyright">
+                © Alle Rechte vorbehalten 2025
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for keyboard navigation and additional functionality -->
+    
+
+</body></html>
